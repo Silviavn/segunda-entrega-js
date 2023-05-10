@@ -36,9 +36,13 @@ const arrayProductos = [pan, aceite, arroz, fideos, salsa, azucar, sal, galletas
 /* Luego revisamos que se vea bien con consola*/
 console.log("Productos disponibles");
 console.log(arrayProductos);
-/*Le aplicamos el metódo reduce que me permite obtener el total del carrito de compras pasandole parametros*/
 
+/*Le aplicamos el metódo sort para que nos busque el producto de menor a mayor precio*/
 
+const numeros = [220, 2200, 990, 1000, 550, 900, 400, 1700, 200, 3000, 5000, 7000, 1300, 1100, 300, 1400, 150, 200, 6000, 5400];
+numeros.sort((a,b) => a - b);
+console.log("Precio de nuestros productos de menor a mayor")
+console.log(numeros);
 
 
 
